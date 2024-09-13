@@ -1,0 +1,21 @@
+.btn-amarillo-block{
+    @include btn($amarillo, block, uppercase);
+    &.width{
+        width: 100%;
+    }
+}
+.btn-verde-block{
+    @include btn($verde, block, uppercase)
+}
+.btn-verde-deshabilitado{
+    margin-top: 2rem;
+    @include btn(rgb(151, 149, 149), inline-block, none, default);
+}
+.btn-verde{
+    margin-top: 2rem;
+    @include btn($verde, inline-block);
+}
+
+.btn-amarillo{
+    @include btn($amarillo, inline-block)
+}

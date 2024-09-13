@@ -1,0 +1,44 @@
+.seccion {
+    margin-top: calc($separacion / 2);
+    margin-bottom: calc($separacion / 2);
+}
+.contenido-centrado {
+    max-width: 80rem;
+}
+.alinear-derecha{
+    display: flex;
+    justify-content: flex-end;
+}
+.dark-mode{
+    background-color: $grisOscuro;
+    color: $blanco;
+    p{
+        color: $blanco;
+    }
+    .anuncio{
+        background-color: lighten($grisOscuro, 20);
+    }
+
+    .precio{
+        color: lighten($verde, 5);
+    }
+    h1, h2, h3, .titulo-blog{
+        color: $blanco;
+    }
+    .footer, .header{
+        background-color: darken($grisOscuro, 3);
+    }
+    li{
+        img{
+            filter: invert(100%);
+        }
+    }
+    .formulario{
+        legend, p{
+            color: $blanco;
+        }
+    }
+}
+.w-100{
+    width: 100%;
+}

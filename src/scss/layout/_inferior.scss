@@ -1,0 +1,78 @@
+@include tablet{
+    .seccion-inferior{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 3rem;
+    }
+    .entrada-blog{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+        margin-bottom: 2rem;
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+}
+.blog, .testimoniales{
+    h3{
+        font-weight: $regular;
+    }
+}
+.texto-entrada{
+    h4{
+        color: $negro;
+        margin-top: 2rem;
+        @include tablet{
+            margin: 0;
+        }
+        &::after{
+            content: '';
+            display: block;//Hace que se muestre el elemento
+            width: 40%;
+            height: .5rem;
+            background-color: $verde;
+        }
+    }
+
+}
+.informacion-meta{
+    span{
+        color: $amarillo;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
