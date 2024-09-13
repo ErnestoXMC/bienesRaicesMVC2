@@ -65,7 +65,6 @@ class PaginasController{
             $mail->SMTPAuth = true;
             $mail->Username = $_ENV['EMAIL_USER'];
             $mail->Password = $_ENV['EMAIL_PASS'];
-            $mail->SMTPSecure = "tls";
             $mail->Port = $_ENV['EMAIL_PORT'];
 
             //Configurar el contenido del email
