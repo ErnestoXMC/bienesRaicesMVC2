@@ -29,7 +29,7 @@
                     </div>
     
                     <nav class="navegacion">
-                        <a href="/nosotros">Nosotros</a>
+                        <a href="/nosotros">NosotrosSomos</a>
                         <a href="/propiedades">Propiedades</a>
                         <a href="/blog">Blog</a>
                         <a href="/contacto">Contacto</a>
